@@ -1,0 +1,68 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+
+
+
+
+
+
+# === Java / Spring Boot ===
+target/
+*.class
+*.jar
+*.war
+*.log
+*.iml
+
+# === Maven ===
+.mvn/
+!mvn/wrapper/maven-wrapper.jar
+.settings/
+.project
+.classpath
+
+# === VS Code ===
+.vscode/
+
+
+
+# === OS-generated ===
+.DS_Store
+Thumbs.db
+
+# === Environment & Secrets ===
+*.env
+.env
+*.properties
+application.properties
+application.yml
+application-dev.yml
+application-prod.yml
+
+# === Logs ===
+*.log
+
+# === Test reports ===
+test-output/
+surefire-reports/
+
+# === Database and cache files (if any) ===
+*.h2.db
+*.mv.db
+*.db
+
+# === Build ===
+build/
